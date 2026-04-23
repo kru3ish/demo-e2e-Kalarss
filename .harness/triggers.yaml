@@ -5,3 +5,6 @@ triggers:
   - path: "apps/payments/**"
     events: [pr]
     image_name: <your-service-name>-payments
+  - path: "apps/payments/**"
+    events: [pr]
+    image_name: <your-service-name>-payments123
